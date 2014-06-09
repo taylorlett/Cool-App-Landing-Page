@@ -205,6 +205,7 @@ button.login:hover {
 .contact-form {
     width: 770px;
     float: left;
+    font-size: 20px;
 }
 
 ::-webkit-input-placeholder {
