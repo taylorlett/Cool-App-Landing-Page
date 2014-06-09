@@ -62,6 +62,7 @@ h4 {
     position: fixed;
     top: 0px;
     border-bottom: 1px solid #486CD9;
+    z-index: 100; 
 }
 
 #logo {
@@ -216,6 +217,9 @@ button.login:hover {
     outline: none;
 }
 
+form {
+    z-index: 5;
+}
 .contact-form ul{
     width: 700px;
     list-style-type: none;
