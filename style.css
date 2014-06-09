@@ -36,7 +36,7 @@ h4 {
 }
 
 .content {
-    padding: 50px 0px;
+    padding: 50px 0px 0px 0px;
 }
 
 .title {
@@ -140,6 +140,39 @@ s
 .tagline h1 {
     text-shadow: 2px 2px 2px #333333;
     color: #ffffff;
+}
+
+button.signup {
+    background-color: #486CD9;
+    color: #F2F2F0;
+    border: 2px solid #F2F2F0;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+button.signup:hover {
+    background-color: #F2505D;
+    cursor: pointer;
+}
+
+button.login {
+    background-color: #F2F2F0;
+    color: #F2505D;
+    border: 2px solid #486CD9;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+button.login:hover {
+    background-color: #F2505D;
+    color: #F2F2F0;
+    cursor: pointer;
 }
 /* ------------About-Section--------------  */
 .about-section {
