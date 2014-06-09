@@ -248,11 +248,13 @@ form {
     height: 40px;
     width: 250px;
     padding: 5px 8px;
+    font-size: 20px;
 }
 .contact-form textarea {
     padding:8px; 
     width:350px;
     height: 80px;
+    font-size: 20px;
 }
 
 .contact-form input, .contact-form textarea {
