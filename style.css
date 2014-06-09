@@ -1,0 +1,268 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    margin:0px;
+    display: block;
+
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container {
+    width:1150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    
+}
+
+.content {
+    padding: 50px 0px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title p {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.center {
+    text-align: center;
+}
+/* ------------Header--------------  */
+#header {
+    height:50px;
+    background-color: #F2F2F0;
+    border:1px solid #CCC;
+    width:100%;
+    margin:0px auto;
+    position: fixed;
+    top: 0px;
+    border-bottom: 1px solid #486CD9;
+}
+
+#logo {
+    display: block;
+    margin: 4px 0px 0px 60px;
+    float: left;
+}
+
+#logo a {
+    color: #486CD9;
+    text-decoration: none;
+    border: none;
+}
+#logo .highlight {
+    color: #e74c3c;
+    margin-left: -20px;
+}
+
+.nav {
+
+}
+.nav ul{
+    font-family: 'Montserrat',  sans-serif;
+    float: right;
+    margin-bottom: 0px;
+}
+
+.nav li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.nav li a{
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold; 
+}
+.nav li a:hover {
+    color: #486CD9;
+}
+
+/* ---------- Background Colors -------- */
+.bg-color-primary {
+    background-color: #F2505D;
+}
+
+.bg-color-secondary {
+    background-color: #486CD9;
+}
+s
+.bg-color-white {
+    background-color: #F2F2F0;
+}
+
+.bg-color-alt {
+
+}
+/* ------------Intro-Section--------------  */
+.intro-section {
+    height: 600px;
+    background-color: #F2505D;
+    margin-top: 0px;
+    border-bottom: 1px solid #F2F2F0;
+}
+.tag-center {
+    padding-top: 200px;
+}
+
+.tagline {
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+.tagline h1 {
+    text-shadow: 2px 2px 2px #333333;
+    color: #ffffff;
+}
+/* ------------About-Section--------------  */
+.about-section {
+    height: 600px;
+    background-color: #486CD9;
+    color: #F2F2F0;
+}
+
+
+/* ------------Features-Section--------------  */
+.features-section {
+    height: 600px;
+    background-color: #F2F2F0;
+}
+
+.feat-block {
+    text-align: center;
+    width: 370px;
+    float: left;
+    min-height: 1px;
+    margin-left: 30px;
+}
+
+/* ------------Section-Contact--------------  */
+.contact-section {
+    height: 600px;
+    background-color: #F2505D;
+    color: #F2F2F0;
+}
+.contact-form {
+    width: 770px;
+    float: left;
+}
+
+::-webkit-input-placeholder {
+   color: #486CD9;
+}
+
+*:focus {
+    outline: none;
+}
+
+.contact-form ul{
+    width: 700px;
+    list-style-type: none;
+    list-style-position: outside;
+    margin:0px;
+    padding: 0px;
+}
+
+.contact-form li {
+    padding: 12px;
+    border-bottom: 1px solid #F2F2F0;
+    position: relative;
+}
+.contact-form li:last-child {
+    border:none;
+}
+
+.contact-form label {
+    width: 200px;
+    margin-top: 3px;
+    display: inline-block;  
+    float: left;
+    padding: 3px;
+}
+.contact-form input {
+    height: 40px;
+    width: 250px;
+    padding: 5px 8px;
+}
+.contact-form textarea {
+    padding:8px; 
+    width:350px;
+    height: 80px;
+}
+
+.contact-form input, .contact-form textarea {
+    border: 1px solid #F2F2F0;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius: 2px;
+
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    background: #F2F2F0; 
+    border:1px solid #486CD9; 
+    box-shadow: 0 0 3px #aaa;
+    padding-right:70px;
+}
+
+.contact-form button {
+    margin-left: 200px;
+}
+
+button.submit {
+    background-color: #486CD9;
+    color: #F2F2F0;
+    border: 2px solid #F2F2F0;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+button.submit:hover {
+    background-color: #F2505D;
+    cursor: pointer;
+}
+.contact-info {
+    width: 370px;
+    float: right;
+}
+/* ------------Footer--------------  */
+
+#footer {
+    height: 50px;
+    background-color: #486CD9;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 25px;
+}
